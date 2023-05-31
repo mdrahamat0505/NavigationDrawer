@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/baseline_camera_alt_24"
+            android:title="Home"/>
+
+        <item
+            android:id="@+id/galleryFragment"
+            android:icon="@drawable/baseline_collections_24"
+            android:title="Gallery"/>
+
+        <item
+            android:id="@+id/slideShowFragment"
+            android:icon="@drawable/baseline_video_library_24"
+            android:title="Slideshow"/>
+
+        <item
+            android:id="@+id/toolsFragment"
+            android:icon="@drawable/baseline_build_24"
+            android:title="Tools"/>
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/shareFragment"
+            android:icon="@drawable/baseline_share_24"
+            android:title="Share"/>
+
+        <item
+            android:id="@+id/sendFragment"
+            android:icon="@drawable/baseline_send_24"
+            android:title="Send"/>
+
+    </group>
+</menu>

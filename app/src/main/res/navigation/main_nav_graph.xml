@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.navdrawer.HomeFragment"
+        android:label="Home Fragment"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.example.navdrawer.GalleryFragment"
+        android:label="Gallery Fragment"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/slideShowFragment"
+        android:name="com.example.navdrawer.SlideShowFragment"
+        android:label="Slideshow Fragment"
+        tools:layout="@layout/fragment_slide_show" />
+    <fragment
+        android:id="@+id/toolsFragment"
+        android:name="com.example.navdrawer.ToolsFragment"
+        android:label="fragment_tools"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/shareFragment"
+        android:name="com.example.navdrawer.ShareFragment"
+        android:label="fragment_share"
+        tools:layout="@layout/fragment_share" />
+    <fragment
+        android:id="@+id/sendFragment"
+        android:name="com.example.navdrawer.SendFragment"
+        android:label="fragment_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>
